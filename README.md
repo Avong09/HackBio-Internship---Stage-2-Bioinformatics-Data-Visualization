@@ -14,12 +14,27 @@ Volcano Plots: Identifying statistically significant genes by plotting $Log_2$ F
 Feature Correlation: A correlation matrix and heatmap of tumour features (radius, texture, area, etc.) to understand multi-collinearity in diagnostic data.
 Distribution Analysis: Using Kernel Density Estimate (KDE) plots and scatter plots to differentiate between Malignant and Benign diagnoses.
 
-3. Advanced Bioinformatics Panels
+   Advanced Bioinformatics Panels
 Kinetics & Half-life: Reproducing complex research figures involving log-transformed kinetic regimes and cell-type ratio distributions.
 Network Analysis: Visualising cell-cell interaction networks using directed graphs with edge weights proportional to interaction strength.
 
-🛠️ Tech Stack & LibrariesLanguage: RVisualization: ggplot2, pheatmap, patchwork, RColorBrewerData Manipulation: dplyr, tidyr, reshape2Network Analysis: igraphFile I/O: readxl
-📂 Repository Structure/data: Contains the raw CSV and Excel datasets (HBR/UHR counts, Breast Cancer metrics)./scripts: The complete R script containing logic for all 8 tasks./outputs: High-resolution (300 DPI) PNG exports of the final multi-panel figures.
+🛠️ Tech Stack & Libraries
+1. Language: R
+
+2. Visualization: ggplot2, pheatmap, patchwork, RColorBrewer
+
+3. Data Manipulation: dplyr, tidyr, reshape2
+
+4. Network Analysis: igraph
+
+5. File I/O: readxl
+
+📂 Repository Structure/data:
+1. /data: Contains the raw CSV and Excel datasets (HBR/UHR counts, Breast Cancer metrics).
+
+2. /scripts: The complete R script containing logic for all 8 tasks.
+
+3. /outputs: High-resolution (300 DPI) PNG exports of the final multi-panel figures.
 
 🚀 How to RunClone the repository. 
 Ensure you have the required R packages installed: install.packages(c("ggplot2", "pheatmap", "dplyr", "patchwork", "igraph")). 
